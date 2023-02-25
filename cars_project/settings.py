@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'cars',
+    'dealerships',
 ]
 
 MIDDLEWARE = [
@@ -70,7 +71,7 @@ TEMPLATES = [
 
 
 REST_FRAMEWORK = {
-    'COERCE_DECIMALE_TO_STRING': False
+    'COERCE_DECIMAL_TO_STRING': False
 }
 
 
